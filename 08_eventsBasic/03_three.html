@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #start,
+    #stop {
+        width: 50px;
+        height: 30px;
+        background-color: aqua;
+        margin: 10px;
+    }
+
+    h1 {
+        width: 200px;
+        height: auto;
+        background-color: aquamarine;
+        border: 3px solid red;
+        padding: 5px;
+    }
+</style>
+
+<body>
+    <h1>Sunil Banjara</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // const sayDate =function(str){
+    //     // console.log("hii Sunil",Date.now())
+    //     console.log(str,Date.now())
+    // }
+    // // setInterval(sayDate,1000)
+    // setInterval(sayDate,1000,"hii")
+
+    //**************************************************************************************************************
+
+    let sayDate = function (str) {
+        console.log(str, Date.now())
+    }
+
+    let Interval = setInterval(sayDate, 1000, "hii")
+
+    document.querySelector('#stop').addEventListener('click', function () {
+        clearInterval(Interval)
+    })
+
+    document.querySelector('#start').addEventListener('click', function () {
+        Interval = setInterval(sayDate, 1000, "hii")
+    })
+
+</script>
+
+</html>

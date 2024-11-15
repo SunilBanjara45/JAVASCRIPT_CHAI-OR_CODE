@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black">
+    <div>
+    <h1 id="title" class="heading">DOM learning on Chai aur Code <span  style="display: none;">sunil banjara</span></h1>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <p>Lorem ipsum dolor sit.</p>
+    <ul>
+        <li class="list-item">home</li>
+        <li class="list-item">service</li>
+        <li class="list-item">prize</li>
+        <li class="list-item">contact</li>
+    </ul>
+   </div>
+
+
+   
+</body>
+</html> 
+
+<!-- .textContent => jo text currently likha hua he vo sara show krta he, chahe kisi property se bhle hi kuch content display nhi ho rha ho.
+
+.innerText => only vo content hi show krta he jo sirf display ho tha ho.
+
+.innerHTML => content ke sath koi HTML tag ya property bhi use ki ho to vo sbhi bhi show krta he.
+
+DOM => DOM is used to change the content of the HTML.
+
+ 
+? DOM STRUCTURE => all are in lower case
+                                                                WINDOW (Global object)
+                          ________________________________________||________________________________________
+                         ||                                       ||                                       ||
+                      DOCUMENT (DOM)                          NAVIGATOR (BOM)                         Javascript
+                         ||                                       ||                                       ||
+                        HTML                                    SCREEN                                   Object
+       __________________||___________________                    ||                                       ||
+      ||                                     ||                LOCATION                                  Array
+     HEAD                                   BODY                  ||                                       ||
+ _____||_____                                ||                 FRAMES                                  Function
+||          ||                     DIV===ATTRIBUTE                ||
+TITLE      <META>                       _____||_____            HISTORY
+||          ||                        ||           ||             ||
+ATTRIBUTE   TEXT NODE        ATTRIBUTE===H1         P       XMLHttpsRequest                     
+                                      ||           ||
+                                   TEXT NODE    TEXT NODE   
+                                   
+BOM =>                                   
+window.navigator used for browser information.
+window.location used for URL manipulation.
+window alert used for displaying alerts.                        
+                                   -->
