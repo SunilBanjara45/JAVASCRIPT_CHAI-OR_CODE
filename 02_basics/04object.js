@@ -43,13 +43,16 @@
 // const obj4= { obj1,obj2,obj3}
 
 // const obj5= Object.assign({}, obj1,obj2,obj3)
-// const obj6= { ...obj1, ...obj2, ...obj3}  // most usfull method to combine objects.
+// const obj6= Object.assign( obj1,obj2,obj3)
+// const obj7= { ...obj1, ...obj2, ...obj3}  // most usfull method to combine objects.
 
 
 // console.log(obj1,obj2,obj3)
 // console.log(obj4)
-// console.log(obj5)
+// console.log(obj5)  // 5,6 both are same
 // console.log(obj6)
+// console.log(obj7)
+
 
 //? #################################################################################
 
@@ -78,11 +81,11 @@ const course = {
     courseInstructor: "sunil"
 }
 
-// const {courseInstructor} = course
-// console.log(courseInstructor)
+const {courseInstructor} = course
+console.log(courseInstructor)
 
-// const {courseInstructor: instructor} = course
-// console.log(instructor)
+const {courseInstructor: instructor} = course
+console.log(instructor)
 
 // let {coursename : don}=course
 //  console.log(don)

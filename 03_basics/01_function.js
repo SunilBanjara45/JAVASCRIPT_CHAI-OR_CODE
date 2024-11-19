@@ -1,11 +1,11 @@
 // function definition
-function sayMyName() {
-    console.log("s");
-    console.log("u");
-    console.log("n");
-    console.log("i");
-    console.log("l");
-}
+// function sayMyName() {
+//     console.log("s");
+//     console.log("u");
+//     console.log("n");
+//     console.log("i");
+//     console.log("l");
+// }
 
 // sayMyName  // function reference
 // sayMyName() // function execution
@@ -15,8 +15,8 @@ function sayMyName() {
 // (number1, number2) -> parameters
 // function addTwoNO(number1, number2) {
 //     console.log(number1 + number2)
-    // let x= number1+number2
-    // return x
+//     let x= number1+number2
+//     return x
 // }
 // (3,4) -> arguments
 // addTwoNO(3,4) // 7
@@ -24,7 +24,7 @@ function sayMyName() {
 // addTwoNO(3,"a") // 3a
 // addTwoNO(3,null) // 3
 
-// let result = addTwoNO(3, 4)  //no value return
+// let result = addTwoNO(3, 4)  
 // console.log("Result:", result) // undefine
 
 
@@ -81,11 +81,11 @@ function addTwoNO (number1, number2){
 // console.log(calculateCartPrice(200, 400, 600, 2000))
 
 
-function calculateCartPrice(val1,val2,...num1){
-    return num1
-}
+// function calculateCartPrice(val1,val2,...num1){
+//     return num1
+// }
 
-console.log(calculateCartPrice(200, 400, 600, 800, 900, 1000, 1500, 2000))
+// console.log(calculateCartPrice(200, 400, 600, 800, 900, 1000, 1500, 2000))
 
 //? **********************************************************************************
 
