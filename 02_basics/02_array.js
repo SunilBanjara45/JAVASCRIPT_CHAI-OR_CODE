@@ -9,6 +9,7 @@
 
 // const new_heros= [...marvelHeros,...dcHeros]  // spread
 // console.log(new_heros)
+// console.log(...dcHeros)
 
 
 //?***************************************************************************************************
