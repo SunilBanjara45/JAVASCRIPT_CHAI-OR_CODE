@@ -37,9 +37,9 @@
 // console.log(Math.min(5,7,2,1,3,))
 
 // console.log(Math.random()); // values lies between 0 to 1.
-// console.log((Math.random()*10)+1);  
+// console.log((Math.random()*10)+1);   // gives decimal value
 // console.log(Math.floor(Math.random()*10)+1); 
-
-// const min=10
-// const max=20
-// console.log(Math.floor(Math.random()*( max -min + 1 ) + min))
+z
+const min=10
+const max=20
+console.log(Math.floor(Math.random()*( max -min + 1 ) + min))
