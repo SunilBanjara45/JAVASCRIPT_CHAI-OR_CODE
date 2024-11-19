@@ -6,8 +6,8 @@
 // console.log(myDate.toLocaleString()) // 8/25/2024, 1:58:43 PM
 
 // let myCreateDate =new Date(2023,0,23) // month always start from 0 in JS.
-// let myCreateDate1 =new Date(2023,01,23) 
-// let myCreateDate2 =new Date(2023,00,23, 5,3) 
+// let myCreateDate1 =new Date(2023,1,23) 
+// let myCreateDate2 =new Date(2023,0,23, 5,3) 
 
 // console.log(myCreateDate.toDateString())
 // console.log(myCreateDate1.toDateString())

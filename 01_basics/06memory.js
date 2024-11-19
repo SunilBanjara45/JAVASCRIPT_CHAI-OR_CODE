@@ -22,8 +22,8 @@
 // console.log(userOne.email)
 // console.log(userTwo.email)
 
-// let arr=["sunil","ram","shyam"]
-// let arr1=arr
-// arr1[1]="krishana";
-// console.log(arr)
-// console.log(arr1)
+let arr=["sunil","ram","shyam"]
+let arr1=arr
+arr1[1]="krishana";
+console.log(arr)
+console.log(arr1)
