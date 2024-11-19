@@ -41,7 +41,8 @@
 // console.log(myObj)
 // console.log(typeof myObj)
 
-// const myFunction = function(){   // function declaration
-//     console.log("Hello World")
-// }
-// console.log(typeof myFunction)
+const myFunction = function(){   // function declaration
+    console.log("Hello World")
+}
+console.log(typeof myFunction)
+myFunction();  // function call

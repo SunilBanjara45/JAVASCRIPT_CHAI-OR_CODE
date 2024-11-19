@@ -26,4 +26,5 @@ let state=null
 console.log(typeof "sunil")  //string
 console.log(typeof age)  //number
 console.log(typeof null)  //object
+console.log(typeof state)  //object
 console.log(typeof undefined)  //undefined

@@ -2,7 +2,8 @@
 //*  Promise in JavaScript
 //* ==========================================
 
-//? A promise in JavaScript is an object that represents the eventual completion or failure of an asynchronous operation. It allows you to handle asynchronous operations more easily and cleanly by providing a way to write asynchronous code that looks synchronous.
+//? A promise in JavaScript is an object that represents the eventual completion or failure of an asynchronous operation.
+// It allows you to handle asynchronous operations more easily and cleanly by providing a way to write asynchronous code that looks synchronous.
 
 //todo 👉 In simpler terms, a promise is like a placeholder for the result of an asynchronous operation. Or A container for the future result or value.
 
@@ -12,13 +13,16 @@
 //* Fulfilled(Resolved): The operation completed successfully.
 //! Rejected: The operation failed or encountered an error.
 
-//? Promises have built-in methods like then and catch to handle the results of asynchronous operations when they complete or encounter errors, making it easier to write asynchronous code that is more readable and maintainable compared to traditional callback-based approaches.
+//? Promises have built-in methods like then and catch to handle the results of asynchronous operations when they complete or encounter errors,
+// making it easier to write asynchronous code that is more readable and maintainable compared to traditional callback-based approaches.
 
 //* ==========================================
 //* Using the Promise Constructor (Class):
 //* ==========================================
 
-//? You can create a promise using the Promise constructor. This involves creating a new instance of the Promise class, which takes a function as an argument. This function, often referred to as the "executor function," takes two parameters: resolve and reject. You call resolve when the asynchronous operation is successful and reject when it encounters an error.
+//? You can create a promise using the Promise constructor. This involves creating a new instance of the Promise class, which takes a function as an argument. 
+//This function, often referred to as the "executor function," takes two parameters: resolve and reject. 
+//You call resolve when the asynchronous operation is successful and reject when it encounters an error.
 
 //* real life example
 
@@ -26,15 +30,20 @@
 
 //todo 2:  Promise Made:  Your friend promises to call you after 2 days at 6 pm. This is similar to creating a promise in JavaScript.
 
-//todo 3:  Pending Stage:  During the 2-day period, you're in a "pending" stage. You're not sure whether your friend will fulfill the promise (call you) or break the promise (not call you). Similarly, when you create a promise in JavaScript, it starts in a pending state until it either resolves (fulfills) or rejects.
+//todo 3:  Pending Stage:  During the 2-day period, you're in a "pending" stage.
+// You're not sure whether your friend will fulfill the promise (call you) or break the promise (not call you). 
+//Similarly, when you create a promise in JavaScript, it starts in a pending state until it either resolves (fulfills) or rejects.
 
-//todo 4: Resolution at a Specific Time:  After 2 days and exactly at 6 pm, you'll know whether the promise is fulfilled (resolved) if your friend calls you, or if it's broken (rejected) if your friend doesn't call. This aligns with the idea that promises in JavaScript resolve or reject, often triggered by asynchronous operations, at a specific point in time.
+//todo 4: Resolution at a Specific Time:  After 2 days and exactly at 6 pm, you'll know whether the promise is fulfilled (resolved) if your friend calls you, 
+//or if it's broken (rejected) if your friend doesn't call. 
+//This aligns with the idea that promises in JavaScript resolve or reject, often triggered by asynchronous operations, at a specific point in time.
 
 //* ==========================================
 //* 2: Using a Function (Promise Wrapper):
 //* ==========================================
 
-//? You can also create a promise by defining a function that returns a promise. This function usually encapsulates some asynchronous operation. Inside this function, you manually create a promise and resolve or reject it based on the result of the asynchronous operation. 
+//? You can also create a promise by defining a function that returns a promise. This function usually encapsulates some asynchronous operation. 
+//Inside this function, you manually create a promise and resolve or reject it based on the result of the asynchronous operation. 
 
 // syntax
 // function myPromiseFunction() {
@@ -112,21 +121,21 @@
 
 //?**************************************************************************************************************************************
 
-const promise1 = new Promise((resolve, reject) =>
-    setTimeout(() => resolve("First"), 2000)
-);
-
-const promise2 = new Promise((resolve) =>
-  setTimeout(() => resolve("Second"), 5000)
-);
-
-// const promise2 = new Promise((resolve, reject) =>
-//     setTimeout(() => reject("Failed"), 100)
+// const promise1 = new Promise((resolve, reject) =>
+//     setTimeout(() => resolve("First"), 2000)
 // );
 
-const promise3 = new Promise((resolve) =>
-    setTimeout(() => resolve("Third"), 1000)
-);
+// const promise2 = new Promise((resolve,reject) =>
+//   setTimeout(() => resolve("Second"), 5000)
+// );
+
+// // const promise2 = new Promise((resolve, reject) =>
+// //     setTimeout(() => reject("Failed"), 100)
+// // );
+
+// const promise3 = new Promise((resolve,reject) =>
+//     setTimeout(() => resolve("Third"), 1000)
+// );
 
 // Promise.all([promise1, promise3, promise2])
 //   .then((values) => {
@@ -144,13 +153,13 @@ const promise3 = new Promise((resolve) =>
 //     console.error(error);
 //   });
 
-  Promise.race([promise1, promise2, promise3])
-    .then((values) => {
-      console.log(values);
-    })
-    .catch((error) => {
-      console.error(error);
-    });
+  // Promise.race([promise1, promise2, promise3])
+  //   .then((values) => {
+  //     console.log(values);
+  //   })
+  //   .catch((error) => {
+  //     console.error(error);
+  //   });
 
 
 //?**************************************************************************************************************************************
@@ -261,28 +270,28 @@ const promise3 = new Promise((resolve) =>
 
 //?**************************************************************************************************************************************
 
-// const promiseFour = new Promise(function(resolve,reject){
-//   setTimeout(function(){
-//     let error = false
-//     if(!error)
-//     {
-//       resolve({ username:"mittal",password:"123"})
-//     } 
-//     else{
-//       reject("ERROR: Something went wrong")
-//     }
-//   },1000)
-// })
+const promiseFour = new Promise(function(resolve,reject){
+  setTimeout(function(){
+    let error = false
+    if(!error)
+    {
+      resolve({ username:"mittal",password:"123"})
+    } 
+    else{
+      reject("ERROR: Something went wrong")
+    }
+  },1000)
+})
 
-// async function consumePromiseFour (){
-//   try {
-//     const response = await promiseFour
-//     console.log(response)
+async function consumePromiseFour (){
+  try {
+    const response = await promiseFour
+    console.log(response)
 
-//   } catch (error) {
-//     console.log(error)
-//   }
-// }
-// consumePromiseFour()
+  } catch (error) {
+    console.log(error)
+  }
+}
+consumePromiseFour()
 
 //?*************************************************************************************************************************************
