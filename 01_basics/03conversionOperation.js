@@ -43,16 +43,19 @@ console.log(valueInNumber4)
 
 //? ##################################################################################
 
-
+/*
 let x =undefined
 let y =Number(x)
+let z =String(x)
 
-console.log(typeof(x))
-console.log(x)
-console.log(undefined)
-console.log(typeof(y))
-console.log(y)
-
+console.log(typeof(x)) //undefined
+console.log(x) //undefined
+console.log(undefined) //undefined
+console.log(typeof(y)) //Number
+console.log(y) //NaN
+console.log(typeof(z)) // string
+console.log(z) //undefined
+*/
 
 //? #################################################################################
 /*
@@ -63,7 +66,7 @@ console.log(typeof(x1))
 console.log(x1)
 console.log(typeof(y1))
 console.log(y1)
-*/
+*
 
 //? ##################################################################################
 /*
@@ -137,6 +140,7 @@ console.log(isBoolean2)
 // let str2 =" sunil"
 // let str3=str1+str2
 // console.log(str3)
+// console.log(str1 +str2)
 
 
 // console.log(1+"2") //12
@@ -169,4 +173,4 @@ console.log(isBoolean2)
 // let x=5
 // let y=x++  // y=5 x=6
 // let z= ++x // x=7
-// console.log([x, y ,z])
+// console.log([x, y ,z]) //7 5 7
