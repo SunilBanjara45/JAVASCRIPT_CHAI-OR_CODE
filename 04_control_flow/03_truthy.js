@@ -73,6 +73,6 @@ console.log(val4);
 //? Ternary operator
 // condition ? true : false
 
- const price=100
- price<=80 ? console.log("less then 80") : console.log("more then 80")
+//  const price=100
+//  price<=80 ? console.log("less then 80") : console.log("more then 80")
   

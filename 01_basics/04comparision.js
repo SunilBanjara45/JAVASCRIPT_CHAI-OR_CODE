@@ -10,12 +10,14 @@
 // console.log("2"<1)   // false
 
 // console.log(null>0)   // false
+// console.log(null < 0)   // false
 // console.log(null>=0)  // true
 // console.log(null==0)  // false
 
 // console.log(undefined == 0)  // false
 // console.log(undefined > 0)   // false
 // console.log(undefined < 0)   // false
+// console.log(undefined >= 0)   // false
 
 // === it's strictly check data and datatype. if datatype is not same then return false.
 

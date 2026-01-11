@@ -110,3 +110,20 @@ console.log(instructor)
 //     {},
 // ]
  
+const json=[
+    {
+        "name": "sunil",
+        "3name": "js in hindi",
+        "price": "free"
+    },
+    {
+        "name": "sunil",
+        "3name": "js in hindi",
+        "price": "free"
+    },
+    {
+        "name": "sunil",
+        "3name": "js in hindi",
+        "price": "free"
+    }
+]

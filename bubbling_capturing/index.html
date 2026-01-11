@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Bubbling and Capturing</title>
+</head>
+<body>
+  <div id="outer" style="padding: 30px; background-color: lightblue;">
+    Outer Div
+    <div id="inner" style="padding: 30px; background-color: lightcoral;">
+      Inner Div
+    </div>
+  </div>
+
+  <script>
+    const outer = document.getElementById('outer');
+    const inner = document.getElementById('inner');
+
+    // Bubbling phase (default: useCapture = false) // andr se bahar ki trf jata he
+    // outer.addEventListener('click', () => {
+    //   console.log('Outer DIV clicked - Bubbling');
+    // }, false);
+
+    // inner.addEventListener('click', () => {
+    //   console.log('Inner DIV clicked - Bubbling');
+    // }, false);
+
+    // Capturing phase (useCapture = true)
+    outer.addEventListener('click', () => {
+      console.log('Outer DIV clicked - Capturing');
+    }, true);
+
+    inner.addEventListener('click', () => {
+      console.log('Inner DIV clicked - Capturing');
+    }, true);
+  </script>
+</body>
+</html>

@@ -13,21 +13,19 @@
 //? **********************************************************************************************************************************
 
 // (number1, number2) -> parameters
-// function addTwoNO(number1, number2) {
-//     console.log(number1 + number2)
-//     let x= number1+number2
-//     return x
-// }
+function addTwoNO(number1, number2) {
+    console.log(number1 + number2) // 7
+    let x= number1+number2
+    return x
+}
 // (3,4) -> arguments
 // addTwoNO(3,4) // 7
 // addTwoNO(3,"4") // 34
 // addTwoNO(3,"a") // 3a
 // addTwoNO(3,null) // 3
 
-// let result = addTwoNO(3, 4)  
-// console.log("Result:", result) // undefine
-
-
+let result = addTwoNO(3, 4)  
+console.log("Result:", result) // 7
 
 //?****************************************************************
 /*

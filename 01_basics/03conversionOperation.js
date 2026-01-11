@@ -26,16 +26,17 @@ console.log(valueInNumber2)
 */
 
 //? #################################################################################
-/*
+
 let score3=null
 console.log(typeof null)
 console.log(score3)
+console.log(null)
 
 let valueInNumber3=Number(score3)
 
 console.log(typeof valueInNumber3 )
 console.log(valueInNumber3)
-*/
+
 
 //? ##################################################################################
 

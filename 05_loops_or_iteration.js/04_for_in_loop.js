@@ -1,10 +1,17 @@
 //? forin loop in object
 
-const myObject ={
-    js:'javascript',
-    cpp:'c++',
-    rb:'ruby'
-}
+// const a =[10,20,30,40,50]
+
+// for (const key in a) {
+//     console.log(key)  
+//     console.log(a[key])  
+// }
+
+// const myObject ={
+//     js:'javascript',
+//     cpp:'c++',
+//     rb:'ruby'
+// }
 
 // for (const key in myObject) {
 //     console.log(key)    
@@ -38,7 +45,7 @@ rb is shortcut for ruby
 //? ********************************************************************************
 //? forin loop in array
 
-const arr = ['js',"rb","py","cpp","c","java"]
+// const arr = ['js',"rb","py","cpp","c","java"]
 
 // for (const key in arr) {
 //    console.log(key) // it prints key 0 1 2 3 4 5

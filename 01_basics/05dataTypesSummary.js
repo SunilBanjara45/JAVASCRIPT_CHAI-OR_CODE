@@ -44,5 +44,5 @@
 const myFunction = function(){   // function declaration
     console.log("Hello World")
 }
-console.log(typeof myFunction)
+console.log(typeof myFunction) // function
 myFunction();  // function call

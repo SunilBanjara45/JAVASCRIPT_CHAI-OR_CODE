@@ -1,5 +1,7 @@
 const accountId="85247"
+console.log(typeof(accountId))
 const accountId1=852485
+console.log(typeof(accountId1))
 let accountEmail="sunil524@gmail.com"
 var accountPassword="12545"
 accountCity= "udaipur"

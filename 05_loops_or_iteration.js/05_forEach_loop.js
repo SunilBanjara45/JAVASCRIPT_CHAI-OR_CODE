@@ -6,7 +6,11 @@
 //     console.log(val)
 // })
 
+const fruits = ['apple', 'banana', 'cherry'];
 
+fruits.forEach(function(fruit, index) {
+  console.log(index,  ': ' , fruit);
+});
 //?**********************************************************************************
 
 //? forEach with Arrow function

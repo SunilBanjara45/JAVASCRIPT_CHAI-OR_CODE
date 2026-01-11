@@ -29,6 +29,11 @@
 // console.log(myn1)
 // console.log("A", myArr)
 
-// const myn2= myArr.splice(1,5) //splice() mutates the original array itself by removing, replacing or adding elements to it. it include last index.
-// console.log(myn2)
-// console.log("B", myArr)
+
+const myArr=[10,20,30,40,50,80,90,100]
+const myn2= myArr.splice(1,5) //splice() mutates the original array itself by removing, replacing or adding elements to it. it include last index.
+
+// spilce(startIndex, deleteCount, item1, item2, item3) //item is optional jo element add krne ho.
+console.log(myn2)
+console.log("B", myArr)
+

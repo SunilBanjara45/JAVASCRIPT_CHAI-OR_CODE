@@ -6,7 +6,7 @@ async-await =>
     async code 
     synch code 
 
-    ye tino code he, ydi hm inko synchronous way(step by stem) me execute krna chahte he to aynch code ke aage await ka use krenge jisse ye pura code ak ke bad ak krke execute hoga.
+    ye tino code he, ydi hm inko synchronous way(step by step) me execute krna chahte he to aynch code ke aage await ka use krenge jisse ye pura code ak ke bad ak krke execute hoga.
 
     async-await iska use tbhi krenge jb hme promises ko handle krna ho.
 

@@ -7,13 +7,14 @@
 // console.log(b)
 // console.log(c)
 
+
 //? *********************************************************************************
 
-// if(true){
-//     const a = 10
-//     let b = 20
-//     var c = 30
-// }
+if(true){
+    const a = 10
+    let b = 20
+    var c = 30
+}
 // console.log(a) // error-> because a ka scope if ke ander hi he.
 // console.log(b) // error-> because b ka scope if ke ander hi he.
 // console.log(c) // ye value print krega 30, ye scope ko follow nhi krta he.
@@ -72,7 +73,13 @@
 
  // if koi function kisi variable me initialize kiya ho to use function definition ke bad hi execute kr skte he phle kiya to error dega..
 
+//  console.log(addtwo(5))
+//  const addtwo= function(num1){  // error dega
+//     return num1+2;
+// }
+
+
  console.log(addtwo(5))
- const addtwo= function(num1){  //hoisting
+ function addtwo(num1){  // 7
     return num1+2;
 }

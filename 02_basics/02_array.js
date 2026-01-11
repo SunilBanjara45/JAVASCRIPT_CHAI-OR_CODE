@@ -38,7 +38,7 @@
 // console.log(real_array)
 // console.log(real_array1)
 
-// console.log(Array.isArray("sunil"))
+console.log(Array.isArray("sunil"))
 // console.log(Array.from("sunil"))
 // console.log(Array.from("1235468795412365"))
 // console.log(Array.from({name:"sunil"}))  // it returns empty array "important" []
