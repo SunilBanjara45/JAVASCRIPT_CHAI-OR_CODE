@@ -26,29 +26,33 @@ console.log(valueInNumber2)
 */
 
 //? #################################################################################
-
+/*
 let score3=null
 console.log(typeof null)
 console.log(score3)
 console.log(null)
 
 let valueInNumber3=Number(score3)
+let valueInNumber4=String(score3)
 
 console.log(typeof valueInNumber3 )
+console.log(typeof valueInNumber4 )
 console.log(valueInNumber3)
-
+console.log(valueInNumber4)
+*/
 
 //? ##################################################################################
 
-/*
+
 let x =undefined
 let y =Number(x)
 
 console.log(typeof(x))
 console.log(x)
+console.log(undefined)
 console.log(typeof(y))
 console.log(y)
-*/
+
 
 //? #################################################################################
 /*
