@@ -171,6 +171,7 @@
 
 // const gameName = new String('sunil-hc')
 // console.log(gameName)
+// console.log(typeof(gameName))
 // console.log(gameName[0])
 // console.log(gameName.__proto__)
 // console.log(gameName.length)

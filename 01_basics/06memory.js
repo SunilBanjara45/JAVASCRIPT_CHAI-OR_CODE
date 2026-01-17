@@ -1,12 +1,12 @@
 // Stack is used in primitive data types. 
 // Heap is used in non-primitive data types. 
 
-// let myName = "sunilbanjara"
-// let anotherName = myName
-// anotherName = "Mittal"
+let myName = "sunilbanjara"
+let anotherName = myName
+anotherName = "Mittal"
 
-// console.log(myName)
-// console.log(anotherName)
+console.log(myName)
+console.log(anotherName)
 
 //? *************************** reference(non-primitive) ****************************
 

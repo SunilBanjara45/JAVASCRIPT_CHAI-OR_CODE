@@ -1,3 +1,23 @@
+/*
+filter() is an array method used to create a NEW array containing only those elements that pass a given condition.
+
+const newArray = array.filter((value, index, array) => {
+    return condition; // true or false
+});
+
+Callback must return true or false
+Returns a new array
+Does NOT modify the original array
+
+🧠 When to use filter()
+
+✅ Remove unwanted data
+✅ Apply conditions
+✅ Clean API responses
+❌ Just looping
+❌ Transform values
+*/
+
 // const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // const value = coding.forEach( (item) => {

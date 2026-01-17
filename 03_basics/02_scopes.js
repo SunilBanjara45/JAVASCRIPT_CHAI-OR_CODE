@@ -10,11 +10,11 @@
 
 //? *********************************************************************************
 
-if(true){
-    const a = 10
-    let b = 20
-    var c = 30
-}
+// if(true){
+//     const a = 10
+//     let b = 20
+//     var c = 30
+// }
 // console.log(a) // error-> because a ka scope if ke ander hi he.
 // console.log(b) // error-> because b ka scope if ke ander hi he.
 // console.log(c) // ye value print krega 30, ye scope ko follow nhi krta he.
@@ -26,7 +26,7 @@ if(true){
 // if(true){           // block scope
 //     const a = 10
 //     let b = 20
-//     c = 30
+//         c = 30
 //     console.log("inner:",b)
 // }
 // console.log(c)
@@ -38,12 +38,11 @@ if(true){
 // child function parent function ki value access kr skta he but parent function child ki value access nki kr skta he.
 // function one(){
 //     const username="sunil"
-
 //     function two(){
 //         const website="youtube"
 //         console.log(username)
 //     }
-//     console.log(website)
+//     // console.log(website)
 //     two()
 // }
 // one()
@@ -77,9 +76,10 @@ if(true){
 //  const addtwo= function(num1){  // error dega
 //     return num1+2;
 // }
+// // console.log(addtwo(5))
 
 
- console.log(addtwo(5))
- function addtwo(num1){  // 7
-    return num1+2;
-}
+//  console.log(addtwo(5))
+//  function addtwo(num1){  // 7
+//     return num1+2;
+// }

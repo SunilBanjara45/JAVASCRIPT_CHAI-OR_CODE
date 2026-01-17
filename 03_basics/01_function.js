@@ -1,4 +1,4 @@
-// function definition
+// // function definition
 // function sayMyName() {
 //     console.log("s");
 //     console.log("u");
@@ -13,19 +13,19 @@
 //? **********************************************************************************************************************************
 
 // (number1, number2) -> parameters
-function addTwoNO(number1, number2) {
-    console.log(number1 + number2) // 7
-    let x= number1+number2
-    return x
-}
+// function addTwoNO(number1, number2) {
+//     console.log(number1 + number2) // 7
+//     let x= number1+number2
+//     return x
+// }
 // (3,4) -> arguments
 // addTwoNO(3,4) // 7
 // addTwoNO(3,"4") // 34
 // addTwoNO(3,"a") // 3a
 // addTwoNO(3,null) // 3
 
-let result = addTwoNO(3, 4)  
-console.log("Result:", result) // 7
+// let result = addTwoNO(3, 4)  
+// console.log("Result:", result) // 7
 
 //?****************************************************************
 /*
@@ -34,7 +34,7 @@ function addTwoNO (number1, number2){
         console.log ("sunil")
         // return result
         return number1+number2
-        console.log("banjara")      // after return no any value print.
+        console.log("banjara")      // after return no any value will print.
     }
 
     let result= addTwoNO(3,4) 
@@ -93,7 +93,7 @@ function addTwoNO (number1, number2){
 // }
 
 // function handleObject(anyObject){
-// console.log(`username is ${anyObject.username} and price is ${anyObject.price}`)
+// console.log(`username is ${anyObject.username} and price is ${anyObject.prices}`)
 // }
 // handleObject(user)
 
@@ -114,7 +114,7 @@ function addTwoNO (number1, number2){
 // const arr =[100,200,300,400,500]
 
 // function getValue(value) {
-//     return value[3]
+//     return value
 // }
 // //  console.log(getValue(arr))
 // console.log(getValue([800, 1000, 900, 2000, 4000, 3000, 7000]))

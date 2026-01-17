@@ -1,11 +1,11 @@
 //? forin loop in object
 
-// const a =[10,20,30,40,50]
+const a =[10,20,30,40,50]
 
-// for (const key in a) {
-//     console.log(key)  
-//     console.log(a[key])  
-// }
+for (const key in a) {
+    console.log(key)  
+    console.log(a[key])  
+}
 
 // const myObject ={
 //     js:'javascript',

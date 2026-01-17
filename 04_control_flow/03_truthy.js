@@ -30,19 +30,26 @@
 
 //? Falsy Values =>
 //  false, 0, -0, ""(empty string), BigInt, 0n, null, undefined, NaN
+// const a =""
+// if(a){
+//     console.log("sunil")
+// }
 
 //? Truthy Values =>
 //    true, "0", " ", [](empty array), {}(empty object), function(){}(empty function)
-
+// const b =" "
+// if(b){
+//     console.log("sunil")
+// }
 
 // const userEmail= []  //length of empty array =0
-// if(userEmail.length ===0){  // true
+// if(userEmail){  // true
 //     console.log("Got Email")
 // }
 
 //? ********************************************************************************
 
-// Object.keys used to convert into array, value of object.
+// Object.keys used to convert  value of keys into array.
 
 // const emptyObj= {}
 // if(Object.keys(emptyObj).length===0){  // true

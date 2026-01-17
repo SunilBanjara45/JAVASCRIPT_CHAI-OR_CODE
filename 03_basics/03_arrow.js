@@ -14,7 +14,7 @@ this directly can not be used in function.
 //     }
 // }
 // user.welcomeMessage()
-// user.username="mittal"
+// user.username="Mittal"
 // user.welcomeMessage()
 // console.log(this)
 

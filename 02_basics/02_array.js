@@ -1,5 +1,5 @@
-// const marvelHeros = ["sunil","raj", "jai"]
-// const dcHeros = ["ram","shyam","krishna"]
+const marvelHeros = ["sunil","raj", "jai"]
+const dcHeros = ["ram","shyam","krishna"]
 // // marvelHeros.push(dcHeros)
 // const heros= marvelHeros.concat(dcHeros)
 
@@ -7,9 +7,9 @@
 // console.log(marvelHeros[3][1])
 // console.log(heros)
 
-// const new_heros= [...marvelHeros,...dcHeros]  // spread
-// console.log(new_heros)
-// console.log(...dcHeros)
+const new_heros= [...marvelHeros,...dcHeros]  // spread
+console.log(new_heros)
+console.log(...dcHeros)
 
 
 //?***************************************************************************************************

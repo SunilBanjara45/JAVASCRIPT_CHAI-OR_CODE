@@ -7,8 +7,8 @@
 //         break;
 // }
 
-//? if case match hone ke bad break nhi he to us case ke bad ki sbhi value print hogi except default.
-const month = "march"
+//? if case match hone ke bad break nhi he to us case ke bad ki sbhi value print hogi.
+const month = "april"
 
 switch (month) {
     case "jan":
@@ -22,7 +22,6 @@ switch (month) {
         break;
     case "april":
         console.log("april");
-        break;
 
     default:
         console.log("default case match");

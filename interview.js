@@ -2,6 +2,7 @@
 // console.log('2'+2)  // 22
 // console.log('2'+2+'2')  // 222
 // console.log('2'+2+2)  // 222
+// console.log('2'+2-2)  // 20
 // console.log(2+2+'2')  // 42
 // console.log('2'+2-'2')  // 20
 // console.log(2+2-'2')  // 2
@@ -106,7 +107,7 @@
 // map(): Applies a function to each element of an array and returns a new array with the transformed elements.
 // filter(): Creates a new array with all elements that pass the provided test.
 // reduce(): Executes a reducer function on each element of the array, accumulating a result.
-// forEach(): Executes a provided function once for each array elemen
+// forEach(): Executes a provided function once for each array element
 
 // function applyOperation(a, b, c, operation) {
 //     return operation(a, b, c);
@@ -138,13 +139,12 @@
 When a variable is declared with let or const, it is hoisted to the top of its scope, but its value is not initialized until the execution reaches the point where it is actually defined. Accessing the variable before this initialization results in the TDZ, and JavaScript throws an error.
 */
 
-
 // console.log(x); // ReferenceError: Cannot access 'x' before initialization
 // let x = 10;
 
 //?******************************************************************************************************************************
 // const a=(4,5,6)
-// console.log(a)   // 6
+// console.log(a)   // 6    Comma operator evaluates all expressions but returns only the last one.
 
 // const x=[4,5,6]
 // console.log(x) // [4,5,6]
@@ -231,8 +231,8 @@ When a variable is declared with let or const, it is hoisted to the top of its s
 // }
 // console.log(arr)
 
-const x=[10,20,30]
+// const x=[10,20,30]
 
-const y =[40,50,60]
-const result = [...x, ...y]
-console.log(result)
+// const y =[40,50,60]
+// const result = [...x, ...y]
+// console.log(result)

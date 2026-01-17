@@ -2,16 +2,27 @@
 
 //? forof loop in array =>
 
-// const arr =[10,20,30,40,50]
-// for (const key of arr) {
-//     console.log(key)
-// }
-
-const arr = [10, 20, 30, 40, 50]
-for (const [key, value] of arr.entries()) {
-    console.log(key, ':', value)
+const arr =[10,20,30,40,50]
+for (const key of arr) {
+    console.log(key)
 }
 
+// const arr = [10, 20, 30, 40, 50]
+// for (const [key, value] of arr.entries()) {
+//     console.log(key, ':', value)
+// }
+
+// // only keys
+// for (const i of arr.keys()) {
+//     console.log(i)
+// }
+// // only values
+// for (const i of arr.values()) {
+//     console.log(i)
+// }
+// for (const i of arr) {
+//     console.log(i)
+// }
 
 // const greetings ="Hello Good Morning"
 // for (const greet of greetings) {
@@ -22,6 +33,7 @@ for (const [key, value] of arr.entries()) {
 //? forof loop in Map
 //? Map => Map is ordered unique key value pair.
 // It ignore duplicate key value pair, not given error.
+// Because map by default iterates over entries ([key, value] pairs).
 
 // const map =new Map()
 // // console.log("object is",map)  // object is Map(0) {}
@@ -31,11 +43,20 @@ for (const [key, value] of arr.entries()) {
 // map.set('AUS',"AUSTRALIA") 
 // map.set('aus',"australia")
 
-// // console.log(map)
+// console.log(map)
 
-// for (const key of map) {
-//     console.log(key)
+// for (const i of map) {
+//     console.log(i)
 // }
+// // keys
+// for (const key of map.keys()) {
+//     console.log(key);
+// }
+// // values
+// for (const value of map.values()) {
+//     console.log(value);
+// }
+
 // // destructure of array
 // const a=[1,2,3]
 // for(const i of a) {

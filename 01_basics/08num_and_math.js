@@ -1,6 +1,7 @@
 // const score=400
 // const balance =new Number(200)
 
+// console.log(typeof(balance)) // object
 // console.log(score) // 400
 // console.log(balance) // [Number: 200]
 // console.log(balance.toString()) // 200
@@ -40,6 +41,6 @@
 // console.log((Math.random()*10)+1);   // gives decimal value
 // console.log(Math.floor(Math.random()*10)+1); 
 
-const min=10
-const max=20
-console.log(Math.floor(Math.random()*( max-min + 1 ) + min));
+// const min=10
+// const max=20
+// console.log(Math.floor(Math.random()*( max-min + 1 ) + min));

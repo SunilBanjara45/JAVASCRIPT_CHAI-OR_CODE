@@ -29,10 +29,13 @@
 //    Array, Objects, Functions
 //  values in a curly breses that is Object.
 //  values in a square brecket that is Array.
+//In JavaScript, arrays are objects, so typeof returns "object". To check an array, use Array.isArray().
 
 // const heros = ["shaktiman", "naagraj","jadugar"]
+// const heros1 = [1, 2, 3, 4]
 // console.log(heros)
-// console.log(typeof heros)
+// console.log(typeof heros) // object
+// console.log(typeof heros1) // object
 
 // let myObj = {
 //     name:"sunil",
@@ -41,8 +44,8 @@
 // console.log(myObj)
 // console.log(typeof myObj)
 
-const myFunction = function(){   // function declaration
-    console.log("Hello World")
-}
-console.log(typeof myFunction) // function
-myFunction();  // function call
+// const myFunction = function(){   // function declaration
+//     console.log("Hello World")
+// }
+// console.log(typeof myFunction) // function
+// myFunction();  // function call
